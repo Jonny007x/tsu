@@ -1,7 +1,7 @@
 这是一个改版tsu,修复了magisk 29版本root后,tsu提示无法找到superuser binary的问题
 目前在colorOS15(android15)系统和magisk29环境上测试通过,可以正常启动,暂未发现问题
 
-如果有使用问题欢迎提交issu
+如果有使用问题欢迎提交issue
 
 ### tsu
 
