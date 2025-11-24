@@ -319,6 +319,7 @@ else
 			else
 				su_cmdline="PATH=$ANDROID_SYSPATHS env -i $ENV_BUILT $STARTUP_SCRIPT"
 			fi
+			su_args+=("-i")
 			su_args+=("-c")
 			exec "${su_args[@]}" "${su_cmdline}"
 		fi
